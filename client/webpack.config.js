@@ -25,8 +25,8 @@ module.exports = () => {
         title: "Contact Cards",
       }),
       new InjectManifest({
-        swSrc: "./src-sw.js",
-        swDest: "src-sw.js",
+        swSrc: "./sw.js",
+        swDest: "sw.js",
       }),
       new WebpackPwaManifest({
         fingerprints: false,
